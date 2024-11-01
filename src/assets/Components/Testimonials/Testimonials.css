@@ -1,0 +1,17 @@
+.testimonial{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    padding: 40px;
+    border-radius: 10px;
+    color:#676767;
+    line-height: 1.5;
+}
+.user-info{
+    font-size: 15px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.user-info h3{
+    color: #212EA0;
+    font-weight:600;
+}

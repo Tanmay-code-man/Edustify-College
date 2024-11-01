@@ -1,0 +1,33 @@
+.campus{
+    width:90%;
+    margin:80px auto;
+    text-align: center;
+    min-height: 47vh;
+}
+.Gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:40px;
+}
+.Gallery img{
+    width:23%;
+    border-radius:10px;
+}
+.SeeMoreBtn{
+    border:none;
+    background-color: #001098;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border:2px solid transparent;
+}
+.SeeMoreBtn:hover{
+    background-color: transparent;
+    color:#001098;
+    transition: all 0.3s ease-in-out;
+    border:2px solid #001098;
+}

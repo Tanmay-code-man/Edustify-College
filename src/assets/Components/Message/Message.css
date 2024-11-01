@@ -1,0 +1,26 @@
+.Message{
+    /* background-color: green; */
+    width:90%;
+    margin:40px auto;
+    height: auto;
+    display: flex;
+    /* background-color: brown; */
+}
+.Message_left{
+    /* background-color: red; */
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+.Message_right{
+    /* background-color: blue; */
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+}
+

@@ -1,0 +1,28 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.dark-nav{
+    background-color: rgba(0, 15, 152);
+    transition: all 0.5s ease-in-out;
+}
+
+/* media query */
+@media (max-width:1000px){
+    .logo{
+        width:10px;
+    }
+}
+
+@media (max-width: 970px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 970px) {
+    .navbar img {
+        width: 40px;
+        margin-left: 10px;
+    }
+}
